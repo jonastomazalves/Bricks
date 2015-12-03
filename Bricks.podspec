@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     'Bricks' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/Bricks.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'Mantle', '~> 2.0.5'
 end
