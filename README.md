@@ -20,9 +20,10 @@ it, simply add the following line to your Podfile:
 pod "Bricks"
 ```
 
-## Author
+## Authors
 
 Thiago Lioy, thiago.lioy@gmail.com
+Jonas Tomaz, jonastomazalves@gmail.com
 
 ## License
 
