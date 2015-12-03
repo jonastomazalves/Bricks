@@ -8,6 +8,9 @@
 
 @import UIKit;
 
-@interface BKViewController : UIViewController
+#import <Bricks.h>
 
+@interface BKViewController : UIViewController
+@property(nonatomic,strong) BKBaseTableViewCell *cell;
+@property(nonatomic,strong) BKBaseMantleObj *baseObj;
 @end
