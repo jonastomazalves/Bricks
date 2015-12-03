@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
               Dont waste your time creating again or copying boilerplate from project to project.
               Use our building blocks for that, go bricks!
                        DESC
-
+  s.summary = 'Instead of boilerplate, use bricks!'
   s.homepage         = "https://github.com/jonastomazalves/Bricks"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
