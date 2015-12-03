@@ -27,6 +27,20 @@
 		1CEE92BCE0BDB6F16A450EA8A09BACE1 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3227D09A5E11D94138F02D20379FF1 /* Expecta.h */; };
 		1DA72E09AECD333C4918E1EEE794F1A2 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BAD800091C1652E4E87EFF3E9DC696 /* SpectaDSL.m */; };
 		1FD88865936B8CCF38ABCE7D5442A715 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C0C3B29ECC791B1D5D280C58447107 /* EXPExpect.h */; };
+		2045E56E1C10A53B009EC048 /* BKBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E56C1C10A53B009EC048 /* BKBaseTableViewCell.h */; settings = {ASSET_TAGS = (); }; };
+		2045E56F1C10A53B009EC048 /* BKBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E56C1C10A53B009EC048 /* BKBaseTableViewCell.h */; settings = {ASSET_TAGS = (); }; };
+		2045E5701C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E56D1C10A53B009EC048 /* BKBaseTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2045E5711C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E56D1C10A53B009EC048 /* BKBaseTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2045E5721C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E56D1C10A53B009EC048 /* BKBaseTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2045E5761C10A622009EC048 /* BKBaseTableViewCellDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E5751C10A622009EC048 /* BKBaseTableViewCellDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		2045E5771C10A622009EC048 /* BKBaseTableViewCellDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E5751C10A622009EC048 /* BKBaseTableViewCellDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		2045E5791C10A696009EC048 /* BKCollectionViewCellDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E5781C10A696009EC048 /* BKCollectionViewCellDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		2045E57A1C10A696009EC048 /* BKCollectionViewCellDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E5781C10A696009EC048 /* BKCollectionViewCellDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		2045E57D1C10A6BE009EC048 /* BKBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E57B1C10A6BE009EC048 /* BKBaseCollectionViewCell.h */; settings = {ASSET_TAGS = (); }; };
+		2045E57E1C10A6BE009EC048 /* BKBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2045E57B1C10A6BE009EC048 /* BKBaseCollectionViewCell.h */; settings = {ASSET_TAGS = (); }; };
+		2045E57F1C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E57C1C10A6BE009EC048 /* BKBaseCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2045E5801C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E57C1C10A6BE009EC048 /* BKBaseCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2045E5811C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2045E57C1C10A6BE009EC048 /* BKBaseCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		222D2F168021AAFE718F60A8E36828C5 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = E09DABA38B5EC14CD085843F81154826 /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2384B57DFC66984C8B725951A87B69F0 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE19222C9B35D6D67058038BD177959F /* NSValueTransformer+MTLInversionAdditions.h */; };
 		2411124549476FFDA4219ADC9AB41589 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF62AD1C233778EEE7EFEFCC2E1F5CD /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -232,6 +246,12 @@
 		16047A83D9E8F7E0877DC679E0005B3F /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		1726D85F9651481B62020A16ED0DD636 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		1B0ED8A04C9E1E6F032FDB44E057AD08 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		2045E56C1C10A53B009EC048 /* BKBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseTableViewCell.h; sourceTree = "<group>"; };
+		2045E56D1C10A53B009EC048 /* BKBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBaseTableViewCell.m; sourceTree = "<group>"; };
+		2045E5751C10A622009EC048 /* BKBaseTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseTableViewCellDelegate.h; sourceTree = "<group>"; };
+		2045E5781C10A696009EC048 /* BKCollectionViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKCollectionViewCellDelegate.h; sourceTree = "<group>"; };
+		2045E57B1C10A6BE009EC048 /* BKBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		2045E57C1C10A6BE009EC048 /* BKBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBaseCollectionViewCell.m; sourceTree = "<group>"; };
 		210D09B9C393630646018814A5BB8240 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		2143C64C373500817067438C09D0012F /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
 		2193B187592F9DE28CB3B599F4C99D86 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
@@ -466,6 +486,49 @@
 			);
 			name = "Pods-Bricks_Tests";
 			path = "Target Support Files/Pods-Bricks_Tests";
+			sourceTree = "<group>";
+		};
+		2045E5691C10A0B6009EC048 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				098DFF953AF6141C5987084D91868B3F /* BKBaseMantleObj.h */,
+				4B7606030546E595A513DE884F68C9CF /* BKBaseMantleObj.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		2045E56A1C10A0C3009EC048 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				2045E56C1C10A53B009EC048 /* BKBaseTableViewCell.h */,
+				2045E56D1C10A53B009EC048 /* BKBaseTableViewCell.m */,
+				2045E57B1C10A6BE009EC048 /* BKBaseCollectionViewCell.h */,
+				2045E57C1C10A6BE009EC048 /* BKBaseCollectionViewCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		2045E56B1C10A0D4009EC048 /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = datasources;
+			sourceTree = "<group>";
+		};
+		2045E5731C10A570009EC048 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		2045E5741C10A5D6009EC048 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2045E5751C10A622009EC048 /* BKBaseTableViewCellDelegate.h */,
+				2045E5781C10A696009EC048 /* BKCollectionViewCellDelegate.h */,
+			);
+			name = protocols;
 			sourceTree = "<group>";
 		};
 		2102CC4920F44967D62A70ADA1C5E20A /* Specta */ = {
@@ -724,8 +787,11 @@
 		A59BC87E3BA0454D2512FF771843B4E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				098DFF953AF6141C5987084D91868B3F /* BKBaseMantleObj.h */,
-				4B7606030546E595A513DE884F68C9CF /* BKBaseMantleObj.m */,
+				2045E5741C10A5D6009EC048 /* protocols */,
+				2045E5731C10A570009EC048 /* delegates */,
+				2045E56B1C10A0D4009EC048 /* datasources */,
+				2045E56A1C10A0C3009EC048 /* cells */,
+				2045E5691C10A0B6009EC048 /* models */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -799,7 +865,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2045E5761C10A622009EC048 /* BKBaseTableViewCellDelegate.h in Headers */,
+				2045E56E1C10A53B009EC048 /* BKBaseTableViewCell.h in Headers */,
 				15FCBA3FEDBD4846A491E10F8D32E9E9 /* BKBaseMantleObj.h in Headers */,
+				2045E57D1C10A6BE009EC048 /* BKBaseCollectionViewCell.h in Headers */,
+				2045E5791C10A696009EC048 /* BKCollectionViewCellDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,14 +878,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A93DB90E0361D24EACAAC918DFF2462 /* SPTCallSite.h in Headers */,
+				2045E57A1C10A696009EC048 /* BKCollectionViewCellDelegate.h in Headers */,
 				9DEA3D740E24D640765F756BCA825478 /* SPTCompiledExample.h in Headers */,
 				D7EB04C3267DA586AE90CFE7B0D45C14 /* SPTExample.h in Headers */,
 				6777AFC696F34BE679C862942C8C921B /* SPTExampleGroup.h in Headers */,
 				4C0B5F76B7CAD31B6859C62C5708FD72 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
 				A90D195405682FE62B855C1AE68E80CC /* SPTGlobalBeforeAfterEach.h in Headers */,
+				2045E56F1C10A53B009EC048 /* BKBaseTableViewCell.h in Headers */,
 				101F7083ECF2A6744C851F5F00F685EB /* SPTSharedExampleGroups.h in Headers */,
+				2045E5771C10A622009EC048 /* BKBaseTableViewCellDelegate.h in Headers */,
 				6988F33B73C2924C8C765387399D41BC /* SPTSpec.h in Headers */,
 				08F92B755B99B0B3CA61D9E5CE1D5C6F /* SPTTestSuite.h in Headers */,
+				2045E57E1C10A6BE009EC048 /* BKBaseCollectionViewCell.h in Headers */,
 				67204AB43957605094FDC910740FC892 /* Specta.h in Headers */,
 				F3C743B8A764F65E3E983268F82781ED /* SpectaDSL.h in Headers */,
 				4F589254367F6C974F110B3EEA264909 /* SpectaTypes.h in Headers */,
@@ -1079,9 +1153,11 @@
 				1BFD166355BEF23FA5997643114A199E /* SPTSharedExampleGroups.m in Sources */,
 				D8395F6D361B1793C5686AA6D99C1C52 /* SPTSpec.m in Sources */,
 				A6B903969894C2D9F884683ACC32F8EA /* SPTTestSuite.m in Sources */,
+				2045E5721C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */,
 				80F3ACAB998825EAE83E15190BC212A7 /* Specta-dummy.m in Sources */,
 				1DA72E09AECD333C4918E1EEE794F1A2 /* SpectaDSL.m in Sources */,
 				DF7520A01A56E51CAFE474C844C02412 /* SpectaUtility.m in Sources */,
+				2045E5811C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */,
 				BCA773A11AA4FCA536957D5BBB0CBCA6 /* XCTestCase+Specta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1133,6 +1209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BA9E61A74E029811AE3803AB9D933D2 /* Pods-Bricks_Tests-dummy.m in Sources */,
+				2045E5801C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */,
+				2045E5711C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,7 +1225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2045E57F1C10A6BE009EC048 /* BKBaseCollectionViewCell.m in Sources */,
 				4FB7FCA10689BBAC932169FDCDBD797D /* BKBaseMantleObj.m in Sources */,
+				2045E5701C10A53B009EC048 /* BKBaseTableViewCell.m in Sources */,
 				CFF02DDC3C87815AB820C9CB5F7AB82C /* Bricks-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
