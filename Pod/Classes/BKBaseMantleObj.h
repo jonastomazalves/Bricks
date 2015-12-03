@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Mantle.h>
+#import "Mantle.h"
 
 @interface BKBaseMantleObj : MTLModel<MTLJSONSerializing>
 
