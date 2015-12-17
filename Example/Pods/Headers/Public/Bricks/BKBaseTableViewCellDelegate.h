@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BKBaseTableViewCellDelegate.h
+../../../../../Pod/Classes/protocols/BKBaseTableViewCellDelegate.h

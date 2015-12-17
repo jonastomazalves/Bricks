@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BKBaseCollectionViewCell.h
+../../../../../Pod/Classes/cells/BKBaseCollectionViewCell.h

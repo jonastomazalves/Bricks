@@ -1,8 +1,8 @@
 {
   "name": "Bricks",
   "version": "0.1.0",
-  "summary": "A short description of Bricks.",
-  "description": "",
+  "summary": "Instead of boilerplate, use bricks!",
+  "description": "Pod with utility classes which provide the building blocks for create iOS apps.\nDont waste your time creating again or copying boilerplate from project to project.\nUse our building blocks for that, go bricks!",
   "homepage": "https://github.com/jonastomazalves/Bricks",
   "license": "MIT",
   "authors": {
@@ -13,6 +13,7 @@
     "git": "https://github.com/jonastomazalves/Bricks.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/@tplioy",
   "platforms": {
     "ios": "7.0"
   },

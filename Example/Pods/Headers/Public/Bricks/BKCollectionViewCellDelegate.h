@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BKCollectionViewCellDelegate.h
+../../../../../Pod/Classes/protocols/BKCollectionViewCellDelegate.h
