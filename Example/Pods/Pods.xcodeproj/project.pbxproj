@@ -28,6 +28,16 @@
 		1DA72E09AECD333C4918E1EEE794F1A2 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BAD800091C1652E4E87EFF3E9DC696 /* SpectaDSL.m */; };
 		1EBCE1F21CF03DEFFC9D63E7FA32A599 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570A72AF9B06267746DA57CACA4C16A /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		1FC1A92D37F173CC11A2AC3A8B0E968C /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 03509C54FAA2A50A2610EF4C1C343B0F /* NSError+MTLModelException.h */; };
+		201429A81C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 201429A61C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		201429A91C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 201429A61C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		201429AA1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429A71C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		201429AB1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429A71C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		201429AC1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429A71C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		201429AF1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 201429AD1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		201429B01C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 201429AD1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		201429B11C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429AE1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		201429B21C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429AE1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		201429B31C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201429AE1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		20D73089A46AA714C9ED3EB9D48A026B /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = C07B077B7E169D407B7FE8A0DCD94C19 /* EXPMatchers+raise.h */; };
 		22C5585E6C61C70A9F64305C425BA8E9 /* Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F1837FF8F2AE8987F1E6049B6723BD /* Mantle-dummy.m */; };
 		245D9FDC55E37F493626D72BB5C96D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1939A8CD43FDFBB5650B1BAB396112 /* Foundation.framework */; };
@@ -250,6 +260,10 @@
 		1726D85F9651481B62020A16ED0DD636 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		18575FF06F332DD73ACE5553A5AF2077 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
 		1DC41854B02EA280FD666CF94A193BF6 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		201429A61C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseTableViewDatasourceAndDelegate.h; sourceTree = "<group>"; };
+		201429A71C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBaseTableViewDatasourceAndDelegate.m; sourceTree = "<group>"; };
+		201429AD1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKBaseCollectionViewDatasourceAndDelegate.h; sourceTree = "<group>"; };
+		201429AE1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKBaseCollectionViewDatasourceAndDelegate.m; sourceTree = "<group>"; };
 		2193B187592F9DE28CB3B599F4C99D86 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		2383BDAEE579F5C80A2BA3B682D038FE /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		238BEA09FEF6A1B123D4F70D773E90E4 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
@@ -640,6 +654,10 @@
 				2BA806111E4FAB7BB4D031551D9BBA55 /* BKBaseTableViewCellDelegate.h */,
 				D157109E97203ACDCF95D3A4F1398D9D /* BKCollectionViewCellDelegate.h */,
 				774D3E245339DCDDD6D9DFCFD0BB0E88 /* Bricks.h */,
+				201429A61C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h */,
+				201429A71C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m */,
+				201429AD1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h */,
+				201429AE1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -820,11 +838,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201429A91C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h in Headers */,
 				1A93DB90E0361D24EACAAC918DFF2462 /* SPTCallSite.h in Headers */,
 				9DEA3D740E24D640765F756BCA825478 /* SPTCompiledExample.h in Headers */,
 				D7EB04C3267DA586AE90CFE7B0D45C14 /* SPTExample.h in Headers */,
 				6777AFC696F34BE679C862942C8C921B /* SPTExampleGroup.h in Headers */,
 				4C0B5F76B7CAD31B6859C62C5708FD72 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
+				201429B01C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h in Headers */,
 				A90D195405682FE62B855C1AE68E80CC /* SPTGlobalBeforeAfterEach.h in Headers */,
 				101F7083ECF2A6744C851F5F00F685EB /* SPTSharedExampleGroups.h in Headers */,
 				6988F33B73C2924C8C765387399D41BC /* SPTSpec.h in Headers */,
@@ -915,11 +935,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0391968ED022B8750F544F86F1379BD /* BKBaseCollectionViewCell.h in Headers */,
+				201429AF1C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.h in Headers */,
 				9B6629D98E2A1CB464C18D431D78A249 /* BKBaseMantleObj.h in Headers */,
 				796DE1A7C46388931995E6B36389232D /* BKBaseTableViewCell.h in Headers */,
 				494DC3EAD4D8A9E7D568E94B64F92D1C /* BKBaseTableViewCellDelegate.h in Headers */,
 				A9D721FD44784AE9E6778D0BAABEC159 /* BKCollectionViewCellDelegate.h in Headers */,
 				1BFD1901A392FE10B6796B36C0CC977D /* Bricks.h in Headers */,
+				201429A81C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1100,6 +1122,8 @@
 			files = (
 				17107766D73792D069C51BC74F2BAB40 /* BKBaseCollectionViewCell.m in Sources */,
 				B7DFAEDA5C5C5073EDACC4038D96DC64 /* BKBaseMantleObj.m in Sources */,
+				201429B11C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */,
+				201429AA1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */,
 				A37F9DAD2C942477E4DC4AE965EDF44C /* BKBaseTableViewCell.m in Sources */,
 				E6B266A2D328B876961D05F908A1BF80 /* Bricks-dummy.m in Sources */,
 			);
@@ -1110,9 +1134,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EA9841ABE58A0839BDDF539561B4CF /* SPTCallSite.m in Sources */,
+				201429AC1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */,
 				2EC3163F84F7FA998CD2E4D976DA8F6D /* SPTCompiledExample.m in Sources */,
 				580EE17ADC44FCAB018F06C7C33368E5 /* SPTExample.m in Sources */,
 				7B624D69FD81E49B03BF95F0A49BD598 /* SPTExampleGroup.m in Sources */,
+				201429B31C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */,
 				1BFD166355BEF23FA5997643114A199E /* SPTSharedExampleGroups.m in Sources */,
 				D8395F6D361B1793C5686AA6D99C1C52 /* SPTSpec.m in Sources */,
 				A6B903969894C2D9F884683ACC32F8EA /* SPTTestSuite.m in Sources */,
@@ -1201,6 +1227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BA9E61A74E029811AE3803AB9D933D2 /* Pods-Bricks_Tests-dummy.m in Sources */,
+				201429AB1C2327C800203AF3 /* BKBaseTableViewDatasourceAndDelegate.m in Sources */,
+				201429B21C2328CE00203AF3 /* BKBaseCollectionViewDatasourceAndDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
