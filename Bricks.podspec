@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Bricks"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Pod with utility classes which provide the building blocks for create iOS apps."
 
 # This description is used to generate tags and improve search results.
