@@ -12,13 +12,13 @@
 
 -(instancetype)initWithModelContainer:(id)modelContainer
                            controller:(UIViewController*)controller
-                            tableView:(UITableView*) tableView
+                       collectionView:(UICollectionView*) collectionView;
 {
     self = [super init];
     if (self) {
         self.modelContainer = modelContainer;
         self.controller = controller;
-        self.tableView = tableView;
+        self.collectionView = collectionView;
         [self registerCells];
         [self additionalInitialSetup];
     }

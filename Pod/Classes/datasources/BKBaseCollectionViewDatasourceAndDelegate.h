@@ -10,12 +10,12 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol BKBaseTableViewDatasourceAndDelegateProtocol <NSObject>
+@protocol BKBaseCollectionViewDatasourceAndDelegateProtocol <NSObject>
 
 @required
 -(instancetype)initWithModelContainer:(id)modelContainer
                            controller:(UIViewController*)controller
-                            tableView:(UITableView*) tableView;
+                            collectionView:(UICollectionView*) collectionView;
 
 @optional
 -(void)additionalInitialSetup;
@@ -24,8 +24,8 @@
 
 
 
-@interface BKBaseCollectionViewDatasourceAndDelegate : NSObject <UICollectionViewDataSource,UICollectionViewDelegate,BKBaseTableViewDatasourceAndDelegateProtocol>
+@interface BKBaseCollectionViewDatasourceAndDelegate : NSObject <UICollectionViewDataSource,UICollectionViewDelegate,BKBaseCollectionViewDatasourceAndDelegateProtocol>
 @property (weak, nonatomic)id modelContainer;
 @property (weak, nonatomic)UIViewController *controller;
-@property (weak, nonatomic)UITableView *tableView;
+@property (weak, nonatomic)UICollectionView *collectionView;
 @end
