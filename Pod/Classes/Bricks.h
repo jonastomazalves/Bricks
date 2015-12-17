@@ -11,6 +11,7 @@
 
 #import "BKBaseTableViewCell.h"
 #import "BKBaseCollectionViewCell.h"
-#import "BKBaseMantleObj.h"
+#import "BKBaseCollectionViewDatasourceAndDelegate.h"
+#import "BKBaseTableViewDatasourceAndDelegate.h"
 
 #endif /* Bricks_h */

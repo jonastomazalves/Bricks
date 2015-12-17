@@ -12,5 +12,4 @@
 
 @interface BKViewController : UIViewController
 @property(nonatomic,strong) BKBaseTableViewCell *cell;
-@property(nonatomic,strong) BKBaseMantleObj *baseObj;
 @end

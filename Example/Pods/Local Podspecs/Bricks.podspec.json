@@ -1,6 +1,6 @@
 {
   "name": "Bricks",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Instead of boilerplate, use bricks!",
   "description": "Pod with utility classes which provide the building blocks for create iOS apps.\nDont waste your time creating again or copying boilerplate from project to project.\nUse our building blocks for that, go bricks!",
   "homepage": "https://github.com/jonastomazalves/Bricks",
@@ -11,7 +11,7 @@
   },
   "source": {
     "git": "https://github.com/jonastomazalves/Bricks.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "social_media_url": "https://twitter.com/@tplioy",
   "platforms": {
@@ -24,10 +24,5 @@
       "Pod/Assets/*.png"
     ]
   },
-  "public_header_files": "Pod/Classes/**/*.h",
-  "dependencies": {
-    "Mantle": [
-      "~> 2.0.5"
-    ]
-  }
+  "public_header_files": "Pod/Classes/**/*.h"
 }
