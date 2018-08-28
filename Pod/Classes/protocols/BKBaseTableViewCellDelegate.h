@@ -15,6 +15,7 @@
 -(void)setup:(id)object;
 
 @optional
-+(void)registerForTableView:(UITableView*)tableview;
++(void)registerForTableView:(UITableView*)tableView;
++(void)registerClassForTableView:(UITableView*)tableView;
 +(CGFloat)cellHeightWithPadding:(CGFloat)padding;
 @end

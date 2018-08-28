@@ -10,23 +10,26 @@
 
 @implementation BKBaseCollectionViewCell
 
-+(CGSize)cellSize{
++ (CGSize)cellSize {
     return CGSizeMake(0, 0);
 }
 
-+(NSString *)cellIdentifier{
++ (NSString *)cellIdentifier {
     NSString *identifier = NSStringFromClass(self.class);
     return identifier;
 }
 
--(void)setup:(id)object{
+- (void)setup:(id)object {
     
 }
 
-+(void)registerForCollectionView:(UICollectionView *)collectionview{
-    NSString *identifier = NSStringFromClass(self.class);
-    UINib *nib = [UINib nibWithNibName:identifier bundle:nil];
-    [collectionview registerNib:nib forCellWithReuseIdentifier:identifier];
++ (void)registerForCollectionView:(UICollectionView *)collectionView {
+    UINib *nib = [UINib nibWithNibName:self.cellIdentifier bundle:nil];
+    [collectionView registerNib:nib forCellWithReuseIdentifier:self.cellIdentifier];
+}
+
++ (void)registerClassForCollectionView:(UICollectionView *)collectionView {
+    [collectionView registerClass:self.class forCellWithReuseIdentifier:self.cellIdentifier];
 }
 
 @end
