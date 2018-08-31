@@ -15,5 +15,6 @@
 -(void)setup:(id)object;
 
 @optional
-+(void)registerForCollectionView:(UICollectionView*)collectionview;
++(void)registerForCollectionView:(UICollectionView*)collectionView;
++(void)registerClassForCollectionView:(UICollectionView*)collectionView;
 @end
